@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.card {
+  flex: 0 0 30%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  text-align: left; 
+  height: 35%; 
+}
+
+.card .date {
+  font-size: 0.9em;
+  color: black;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.card .green-button {
+  background-color: green;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 140px;
+}
+
+.card .profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 40%;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+h4{
+  margin-left: 220px;
+}
+
+.card .text-content {
+  margin: 20px 0;
+  flex: 1; 
+}
+
+.card .text-content p {
+  max-width: 350px;
+  margin: 0;
+}
+
+.card .download-button {
+
+  color:blue;
+  padding: 10px;
+  cursor: pointer;
+  border-color: blue;  
+  border-radius:50px;
+  width: 30%;
+  margin-top: 10px;
+
+}
+
+.card .top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.card .button-and-image {
+  display: flex;
+  align-items: center;
+}
+
+.card .green-button {
+  background-color: green;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 140px;
+}
+
+.card .profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 40%;
+  margin-right: 20px;
+  margin-top: 0; 
+}
+
+h4 {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .card{
+    height: 12%;
+  }
+}
