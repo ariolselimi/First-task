@@ -110,4 +110,11 @@ h4 {
   .card{
     height: 12%;
   }
-}
+  .card .download-button{
+    width: 105px;
+  }
+  .card .green-button{
+  width: 6rem;
+
+  }
+} 

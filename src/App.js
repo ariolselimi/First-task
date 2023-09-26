@@ -9,7 +9,7 @@ const table = () => {
     <div className="container">
         {data.hero.map((item, index) => (
             <div key={index} className="item">
-            <img src={item.image} alt={item.title} />
+            <img className='image-data' src={item.image} alt={item.title} />
       <div>
             <h2>{item.title}</h2>
             <p>{item.paragraph}</p>

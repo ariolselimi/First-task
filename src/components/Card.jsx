@@ -12,7 +12,7 @@ const Card = ({card}) => {
             <div className="date">{item.date}</div>
             <div className="top-section">
             <div className="button-and-image">
-                <button className="green-button" style={{ backgroundColor: item.color }}>{item.buttonText}</button>
+                <button className="green-button" style={{backgroundColor: item.color, width: item.width}}>{item.buttonText}</button>
                 <img src={item.profilePic} alt="Profile" className="profile-pic" />
             </div>
                 <h4>{item.h4}</h4>
