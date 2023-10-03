@@ -32,7 +32,7 @@
 
 /* MEDIA SCREEN */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   .item {
     flex-basis: 100%; 
     flex-direction: column;
@@ -49,10 +49,10 @@
 }
 
 
-@media screen and (min-width: 770px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
   .item{     
-    width: 24rem;
+    width: 23rem;
     display: flex;
     align-items: center;
     padding: 20px;
