@@ -6,10 +6,10 @@
 
 
 .item {
-  width: 29rem;
+  width: 34rem;
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding-top: 20px;
   box-sizing: border-box;
 }
 
