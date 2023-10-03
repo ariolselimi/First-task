@@ -1,22 +1,19 @@
-.container {
+.container{
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-around;
+  align-items: stretch; 
+  justify-content: center; 
+  gap: 45px;
 }
 
 .card {
-  flex: 0 0 30%;
+  gap:10px;
   border: 1px solid #ccc;
   border-radius: 15px;
-  padding: 20px;
+  padding: 45px;
   box-sizing: border-box;
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  text-align: left; 
-  height: 35%; 
 }
 
 .card .date {
@@ -108,10 +105,7 @@ h4 {
 
 @media screen and (max-width: 768px) {
   .card{
-    height: 380px;
-    padding: 40px;
-    flex-basis: 50%;
-
+    padding: 15px;
   }
   .card .download-button{
     width: 105px;
@@ -124,10 +118,9 @@ h4 {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .card{
-    height: 390px;
-    flex-basis: 50%;
-
+    width: 47%;
   }
+
   .card .download-button{
     width: 105px;
   }
