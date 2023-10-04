@@ -62,10 +62,11 @@ h4{
   color:blue;
   padding: 10px;
   cursor: pointer;
+  background-color: white;
   border-color: blue;  
   border-radius:50px;
-  width: 30%;
   margin-top: 10px;
+  width: 32%;
 
 }
 
