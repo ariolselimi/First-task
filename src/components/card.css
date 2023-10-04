@@ -2,14 +2,15 @@
   display: flex;
   align-items: stretch; 
   justify-content: center; 
-  gap: 45px;
+  gap: 44px;
 }
 
 .card {
+  width: 27%;
   gap:10px;
   border: 1px solid #ccc;
   border-radius: 15px;
-  padding: 45px;
+  padding: 15px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -105,6 +106,7 @@ h4 {
 
 @media screen and (max-width: 768px) {
   .card{
+    width: 78%;
     padding: 15px;
   }
   .card .download-button{
@@ -119,6 +121,7 @@ h4 {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .card{
     width: 47%;
+    padding: 10px;
   }
 
   .card .download-button{
